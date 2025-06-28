@@ -1,3 +1,7 @@
-version https://gitlfs.github.com/spec/v1
-oid sha256:4fa47a4401f6091f463be7df61fe7d0c5f8c289b7351b2e242a73ca3f536f753
-size 317
+* filter=lfs diff=lfs merge=lfs -text
+source/_posts/** filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+\# filter=lfs diff=lfs merge=lfs -text
+示例：仅跟踪 filter=lfs diff=lfs merge=lfs -text
+PSD filter=lfs diff=lfs merge=lfs -text
+文件 filter=lfs diff=lfs merge=lfs -text
